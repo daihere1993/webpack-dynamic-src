@@ -2,7 +2,13 @@
 
 Webpack plugin that allows to configure dynamic chunk's src.
 
-## Useage
+## Install
+
+```bash
+npm install webpack-dynamic-src
+```
+
+## Usage
 
 ```javascript
 // webpack.config.js
