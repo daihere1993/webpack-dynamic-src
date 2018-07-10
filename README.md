@@ -17,8 +17,8 @@ module.exports = {
 // main.js
 window.dynamicSrcFn = function (oldSrc) {
   // do something by oldSrc;
-  console.log(`Original src: ${src}`);
-  let chunkName = src.slice(src.lastIndexOf('/') + 1);
+  console.log(`Original src: ${oldSrc}`);
+  let chunkName = oldSrc.slice(oldSrc.lastIndexOf('/') + 1);
   return `https://www.google.com/test/${chunkName}`;
 }
 ```
