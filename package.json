@@ -1,0 +1,12 @@
+{
+  "name": "webpack-dynamic-src",
+  "version": "1.0.0",
+  "description": "Webpack plugin that allows to configure dynamic chunk's src.",
+  "main": "index.js",
+  "author": "LukeWuu",
+  "license": "MIT",
+  "repository": "https://github.com/daihere1993/webpack-dynamic-src",
+  "dependencies": {
+    "tapable": "^1.0.0"
+  }
+}
